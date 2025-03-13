@@ -1,6 +1,7 @@
 module github.com/grafana/xk6-browser
 
 go 1.21
+toolchain go1.23.7
 
 require (
 	github.com/chromedp/cdproto v0.0.0-20240919203636-12af5e8a671f
@@ -14,8 +15,8 @@ require (
 	go.k6.io/k6 v0.55.0
 	go.opentelemetry.io/otel v1.29.0
 	go.opentelemetry.io/otel/trace v1.29.0
-	golang.org/x/net v0.30.0
-	golang.org/x/sync v0.8.0
+	golang.org/x/net v0.36.0
+	golang.org/x/sync v0.11.0
 	gopkg.in/guregu/null.v3 v3.3.0
 )
 
@@ -58,9 +59,9 @@ require (
 	go.opentelemetry.io/otel/metric v1.29.0 // indirect
 	go.opentelemetry.io/otel/sdk v1.29.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.3.1 // indirect
-	golang.org/x/crypto v0.28.0 // indirect
-	golang.org/x/sys v0.26.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/crypto v0.35.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	golang.org/x/time v0.7.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240822170219-fc7c04adadcd // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240822170219-fc7c04adadcd // indirect
